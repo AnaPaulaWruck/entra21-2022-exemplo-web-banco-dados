@@ -1,0 +1,26 @@
+hash salt pepper - md5
+sha512
+
+token - jwt (header, payload, signature)
+
+-----------------
+
+NullReferenceException: Object reference not set to an instance of an object.
+
+Sempre que der esse erro, provavelmente não instanciou o objeto (new ...)
+
+------------------
+
+Clean Code (Ler primeiro)
+
+Clean Architecture (Ler depois)
+
+SOLID
+
+domain driven design
+
+-----------------
+
+ORM na programação
+
+Entity Framework
