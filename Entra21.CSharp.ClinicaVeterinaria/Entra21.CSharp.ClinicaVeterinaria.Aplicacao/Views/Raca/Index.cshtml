@@ -19,6 +19,7 @@
             <th>Código</th>
             <th>Nome</th>
             <th>Espécie</th>
+            <th>Ação</th>
         </tr>
     </thead>
     <tbody>
@@ -31,6 +32,10 @@
                 <td>@raca.Id</td>
                 <td>@raca.Nome</td>
                 <td>@raca.Especie</td>
+                <td>
+                    <a href="/raca/editar?id=@raca.Id">Editar</a>
+                    <a href="/raca/apagar?id=@raca.Id">Apagar</a>
+                </td>
             </tr>
         }
     </tbody>
