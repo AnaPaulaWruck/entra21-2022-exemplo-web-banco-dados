@@ -24,3 +24,15 @@ domain driven design
 ORM na programação
 
 Entity Framework
+
+-----------------
+
+Font Awesome (imagens que não são imagens para não ser tão pesado, quando envolve uma ação)
+
+SonarQube (analisador de códigos para boas práticas)
+
+Pilares da Orientação a Objeto
+	Herança
+	Sobrecarga
+	Sobrescrita
+	Método com e sem retorno
