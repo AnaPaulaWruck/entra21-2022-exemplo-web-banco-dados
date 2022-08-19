@@ -1,0 +1,47 @@
+[33mcommit ec2cab4f119b7a10f241c6f99d32f0f4de45cd69[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Ana Paula Wruck <wruck.ap@gmail.com>
+Date:   Wed Aug 17 22:10:30 2022 -0300
+
+    Refatorado usando Herança.
+
+[33mcommit cdd30fd2472e35be978e19ad4e29527a76b0593a[m
+Author: Ana Paula Wruck <wruck.ap@gmail.com>
+Date:   Wed Aug 17 20:19:21 2022 -0300
+
+    Alterado cadastro e edição para método POST.
+
+[33mcommit fdbdb8bcdf2b78796082540c339b1f539fd45f17[m
+Author: Ana Paula Wruck <wruck.ap@gmail.com>
+Date:   Wed Aug 17 20:09:56 2022 -0300
+
+    Finalizado o CRUD de raça.
+
+[33mcommit 7ec9d2eeb4cc2285830e0d38e0da6eaffe7ebe12[m
+Author: Ana Paula Wruck <wruck.ap@gmail.com>
+Date:   Mon Aug 15 22:06:22 2022 -0300
+
+    Ajustado e configurado layout, continuação do cadastro, criação da edição.
+
+[33mcommit c81c144314f430f35af282d75797808180741712[m
+Author: Ana Paula Wruck <wruck.ap@gmail.com>
+Date:   Fri Aug 12 22:10:44 2022 -0300
+
+    Atualizado serviço e repositório para fazer cadastro, edição e remoção dos valores. Testado o cadastro no banco
+
+[33mcommit cb8ef02b1cfab1a4f2d6b055b09d31e549bbf9a3[m
+Author: Ana Paula Wruck <wruck.ap@gmail.com>
+Date:   Mon Aug 8 22:13:41 2022 -0300
+
+    Criado controller, serviço, repositório, contexto.
+
+[33mcommit ea710dcca75cadbceddb7b3bce9de8218cebf953[m
+Author: Ana Paula Wruck <wruck.ap@gmail.com>
+Date:   Wed Aug 3 22:06:51 2022 -0300
+
+    Iniciado exemplo de aplicação para web
+
+[33mcommit 06fe149e8735587ebe6e34eb8b1562d0c5c3cc97[m
+Author: Ana Paula Wruck <105085105+AnaPaulaWruck@users.noreply.github.com>
+Date:   Wed Aug 3 20:48:37 2022 -0300
+
+    Initial commit
