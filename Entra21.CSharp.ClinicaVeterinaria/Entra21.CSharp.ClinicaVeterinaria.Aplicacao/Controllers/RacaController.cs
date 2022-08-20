@@ -53,8 +53,7 @@ namespace Entra21.CSharp.ClinicaVeterinaria.Aplicacao.Controllers
         {
             // TODO Amanda
             // Valida o parâmetro recebido na Action
-            //if (ModelState.IsValid == false)
-            if (!ModelState.IsValid)
+            if (!ModelState.IsValid) // if (ModelState.IsValid == false)
             {
                 ViewBag.Especies = ObterEspecies();
 
