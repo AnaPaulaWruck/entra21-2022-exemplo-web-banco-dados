@@ -5,9 +5,15 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entra21.CSharp.ClinicaVeterinaria.Aplicacao", "Entra21.CSharp.ClinicaVeterinaria.Aplicacao\Entra21.CSharp.ClinicaVeterinaria.Aplicacao.csproj", "{7CA12AFC-B270-489C-83F7-4D76BB9AC835}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entra21.CSharp.ClinicaVeterinaria.Servico", "Entra21.CSharp.ClinicaVeterinaria.Servico\Entra21.CSharp.ClinicaVeterinaria.Servico.csproj", "{A6E937E9-5981-4896-AB9F-1DC7E2BF1863}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entra21.CSharp.ClinicaVeterinaria.Servico", "Entra21.CSharp.ClinicaVeterinaria.Servico\Entra21.CSharp.ClinicaVeterinaria.Servico.csproj", "{A6E937E9-5981-4896-AB9F-1DC7E2BF1863}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositorio", "Repositorio\Repositorio.csproj", "{C0D60D4C-9E94-4D76-8E97-1623E9B959B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositorio", "Repositorio\Repositorio.csproj", "{C0D60D4C-9E94-4D76-8E97-1623E9B959B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - Application", "00 - Application", "{5E16C2FD-60B6-43F4-96E1-9BB69A7A206E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Domain", "01 - Domain", "{ECAEDF6E-0CBF-40D4-9345-B00381116224}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Infra", "02 - Infra", "{C35A1BB7-037F-451E-9EC1-74CB40B8D979}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +36,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7CA12AFC-B270-489C-83F7-4D76BB9AC835} = {5E16C2FD-60B6-43F4-96E1-9BB69A7A206E}
+		{A6E937E9-5981-4896-AB9F-1DC7E2BF1863} = {ECAEDF6E-0CBF-40D4-9345-B00381116224}
+		{C0D60D4C-9E94-4D76-8E97-1623E9B959B4} = {C35A1BB7-037F-451E-9EC1-74CB40B8D979}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1C268E0A-5E20-4D64-A2FB-A122A13068B0}
