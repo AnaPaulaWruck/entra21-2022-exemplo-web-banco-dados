@@ -44,3 +44,28 @@ https://www.researchgate.net/profile/Yu-Ding-24/publication/351417938/figure/fig
 
 -----------------
 
+- Entity Framework (OMR):
+DB First: Criar uma aplicação onde o banco de dados já existe
+Code First: Criar um banco de dados a partir de uma aplicação existente
+Seed: Alimentar o banco de dados com registros, quando rodar a primeira aplicação
+Migration: representação do mapeamento que será aplicado no banco de dados
+Mapeamento: representação da entidade em tabelas, colunas, índices...
+
+Gerar o Mapeamento: Exemplo RacaMapeamento
+Registrar o mapeamento
+Gerar Migration (gera um versionamento)
+Subir a aplicação
+
+Obs.: Necessário instalar a ferramenta dotnet ef core (Tools > NuGet Package Manager > Package Manager Console)
+Documentação: https://docs.microsoft.com/pt-br/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli
+Executar o comando: 
+dotnet tool install --global dotnet-ef --Project Repositorio --startup-project Entra21.CSharp.ClinicaVeterinaria.Aplicacao
+dotnet ef database update --project Repositorio --startup-project Entra21.CSharp.ClinicaVeterinaria.Aplicacao
+
+1ª etapa - Criar a entidade - Exemplo Raca.cs
+2ª etapa - Criar o mapeamento da entidade para tabelas - Exemplo RacaMapeamento.cs
+3ª etapa - Registrar o mapeamento
+4ª etapa - Gerar a migration
+5ª etapa - A migration poderá ser aplicada de duas formas:
+    - executar comando para aplicar a migration sem a necessidade de executar a aplicação
+    - executar a aplicação irá aplicar a migration
