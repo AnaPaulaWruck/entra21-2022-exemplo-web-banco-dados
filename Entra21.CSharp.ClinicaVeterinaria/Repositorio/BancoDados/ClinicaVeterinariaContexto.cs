@@ -7,6 +7,7 @@ namespace Entra21.CSharp.ClinicaVeterinaria.Repositorio.BancoDados
     public class ClinicaVeterinariaContexto : DbContext
     {
         public DbSet<Raca> Racas { get; set; }
+        public DbSet<Veterinario> Veterinarios { get; set; }
 
         public ClinicaVeterinariaContexto(
             DbContextOptions<ClinicaVeterinariaContexto> options) : base(options)
@@ -18,8 +19,9 @@ namespace Entra21.CSharp.ClinicaVeterinaria.Repositorio.BancoDados
             /* 
             * Obs.: Necessário instalar a ferramenta dotnet ef core
             * Documentação: https://docs.microsoft.com/pt-br/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli
-            * Executar o comando: dotnet ef migrations add AdicionarRacaTabela --project Repositorio --startup-project Entra21.CSharp.ClinicaVeterinaria.Aplicacao
-            * dotnet ef database update --project Repositorio --startup-project Entra21.CSharp.ClinicaVeterinaria.Aplicacao
+            * Executar o comando: 
+            *   dotnet ef migrations add AdicionarRacaTabela --project Repositorio --startup-project Entra21.CSharp.ClinicaVeterinaria.Aplicacao
+            *   dotnet ef database update --project Repositorio --startup-project Entra21.CSharp.ClinicaVeterinaria.Aplicacao
             * 1ª etapa - Criar a entidade - Exemplo Raca.cs
             * 2ª etapa - Criar o mapeamento da entidade para tabelas - Exemplo RacaMapeamento.cs
             * 3ª etapa - Registrar o mapeamento
@@ -30,6 +32,7 @@ namespace Entra21.CSharp.ClinicaVeterinaria.Repositorio.BancoDados
             */
 
             modelBuilder.ApplyConfiguration(new RacaMapeamento());
+            modelBuilder.ApplyConfiguration(new VeterinarioMapeamento());
         }
     }
 }

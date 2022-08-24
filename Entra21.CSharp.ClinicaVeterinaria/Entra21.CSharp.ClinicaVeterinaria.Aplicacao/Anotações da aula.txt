@@ -58,6 +58,8 @@ Subir a aplicação
 
 Obs.: Necessário instalar a ferramenta dotnet ef core (Tools > NuGet Package Manager > Package Manager Console)
 Documentação: https://docs.microsoft.com/pt-br/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli
+Instalar dotnet ef: 
+dotnet tool install --global dotnet-ef
 Executar o comando: 
 dotnet tool install --global dotnet-ef --Project Repositorio --startup-project Entra21.CSharp.ClinicaVeterinaria.Aplicacao
 dotnet ef database update --project Repositorio --startup-project Entra21.CSharp.ClinicaVeterinaria.Aplicacao
@@ -69,3 +71,16 @@ dotnet ef database update --project Repositorio --startup-project Entra21.CSharp
 5ª etapa - A migration poderá ser aplicada de duas formas:
     - executar comando para aplicar a migration sem a necessidade de executar a aplicação
     - executar a aplicação irá aplicar a migration
+
+---------------
+
+Dependency Injection
+
+---------------
+
+Tirar using desnecessário:
+	ctrl . onde está sendo desnecessário e escolhe para remover na solução, projeto, documento
+
+---------------
+
+Refactoring Guru - Padrões de Projetos
